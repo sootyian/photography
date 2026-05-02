@@ -37,58 +37,14 @@ layout: default
                 <section>
                     <h2>{{ site.footer.name }}</h2>
                     <p>{{ site.footer.bio }}</p>
-                    <p>{{ site.footer.github }}</p>
-                </section>
-                <section>
-                    <h2>Sponsor</h2>
-                    <div class="presentify">
-                        <div class="presentify-logo">
-                            <a href="https://presentifyapp.com">
-                                <img src="https://raw.githubusercontent.com/rampatra/assets/refs/heads/main/Presentify/Icons/icon_512.png"
-                                 alt="presentify-logo" />
-                            </a>
-                        </div>
-                        <div class="presentify-text">
-                            Turn your screen into a canvas when on video calls and articulate your thoughts better than
-                            ever with the <a href="https://presentifyapp.com">Presentify</a> app.
-                        </div>
-                    </div>
                 </section>
                 <section>
                     <h2>Follow me on ...</h2>
                     <ul class="icons">
-                        {% if site.social_urls.facebook %}
-                            <li>
-                                <a href="{{ site.social_urls.facebook }}" class="icon brands fa-facebook">
-                                    <span class="label">Facebook</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.twitter %}
-                            <li>
-                                <a href="{{ site.social_urls.twitter }}" class="icon brands fa-twitter">
-                                    <span class="label">Twitter</span>
-                                </a>
-                            </li>
-                        {% endif %}
                         {% if site.social_urls.instagram %}
                             <li>
                                 <a href="{{ site.social_urls.instagram }}" class="icon brands fa-instagram">
                                     <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.dribbble %}
-                            <li>
-                                <a href="{{ site.social_urls.dribbble }}" class="icon brands fa-dribbble">
-                                    <span class="label">Dribbble</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.github %}
-                            <li>
-                                <a href="{{ site.social_urls.github }}" class="icon brands fa-github">
-                                    <span class="label">GitHub</span>
                                 </a>
                             </li>
                         {% endif %}
@@ -102,30 +58,8 @@ layout: default
                     </ul>
                 </section>
                 <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                    &copy; {{ site.author }}.
                 </p>
-            </div>
-            <div>
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="fields">
-                            <div class="field half">
-                                <input type="text" name="name" id="name" placeholder="Name" />
-                            </div>
-                            <div class="field half">
-                                <input type="text" name="email" id="email" placeholder="Email" />
-                            </div>
-                            <div class="field">
-                                <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send" class="primary" /></li>
-                            <li><input type="reset" value="Reset" /></li>
-                        </ul>
-                    </form>
-                </section>
             </div>
         </div>
     </footer>
