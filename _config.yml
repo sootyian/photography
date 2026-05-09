@@ -6,7 +6,7 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: ""
 
 # UI configs
-title: "Photography by Ian Lowe"
+title: "Photography by Ian Lowe     All Images © Ian Lowe 2026"
 subtitle: "See the world through my eyes!"
 author: "Ian Lowe"
 header:
@@ -14,7 +14,7 @@ header:
  subtitle: "by Ian Lowe"
 footer:
  name: "Hey there, my name is Ian"
- bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet elit sed magna placerat accumsan vulputate vitae tortor. Curabitur sodales pulvinar sollicitudin. Duis vitae maximus enim, et blandit nulla. Integer id ligula ut orci ultrices varius. Vestibulum vehicula vehicula turpis et aliquam. Vivamus accumsan egestas dui, a efficitur ex placerat non. Mauris sed ornare arcu, sit amet fringilla libero."
+ bio: 'My fascination with photography began in the darkroom at Sunderland art college.  Recalling the "alchemy" of seeing a B&W landscape of Southwold materialise in the developing tray; is what first drew me to photography. While my career took me into the worlds of technical illustration and Formula One, that fundamental curiosity never left me. I am particularly interested in the "grittiness" of early 20th-century photography, from the very start with the work of Fox Talbot to the graphic power of First World War imagery. I want to research how these early types of photography compare to modern technology, perhaps by shooting the same subject on everything from salt paper prints to an iPhone to see how the process alters the message.'
 
 social_urls:
   linkedin: "https://in.linkedin.com/in/ianlowe3mil"
